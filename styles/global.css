@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: #61cc9c;
+  color: black;
+}
+
+body {
+  color: #fffffff2;
+  background-color: #0f2018;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes bubbleUp {
+  0% {
+    translate: 0;
+  }
+  50% {
+    translate: 100px;
+  }
+  100% {
+    translate: 0;
+    z-index: 2;
+  }
+}
+
+@keyframes return {
+  0% {
+    translate: 0;
+    z-index: 2;
+  }
+  50% {
+    translate: 100px;
+  }
+  100% {
+    translate: 0;
+    z-index: 0;
+  }
+}
