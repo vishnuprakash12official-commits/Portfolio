@@ -1,10 +1,6 @@
 # 💼 Next.js + Tailwind + Spline Personal Portfolio
 
-## 🌐 Live Demo
 
-
-
----
 
 ## 🚀 Features
 
