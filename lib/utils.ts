@@ -191,6 +191,6 @@ export const projects = [
     ],
     thumbnail: "/assets/ProjectThumbnails/Spacio.png",
     description: "WorkSpace Finder Web app",
-    link: "#",
+    link: "https://spacio-seven.vercel.app/",
   },
 ];
