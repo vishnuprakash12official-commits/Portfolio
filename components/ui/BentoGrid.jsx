@@ -213,12 +213,12 @@ const BentoGrid = memo(function BentoGrid() {
           />
         </div>
 
-        <Link
+        {/* <Link
           target="_blank"
           href="/resume_(1).pdf"
           download={true}
           className="flex flex-col mt-auto"
-        >
+        > */}
            
           <FancyButtonAlt icon={<PiFilePdfFill />} link="https://drive.google.com/file/d/1ULsdCheBkMAcr7s6C9F6w7uLxhAe0fCt/view?usp=sharing" title="Download" />
         </Link>
