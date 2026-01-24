@@ -215,7 +215,7 @@ const BentoGrid = memo(function BentoGrid() {
 
         <Link
           target="_blank"
-          href="/resume.pdf"
+          href="resume_(1).pdf"
           download={true}
           className="flex flex-col mt-auto"
         >
