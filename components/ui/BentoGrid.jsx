@@ -219,7 +219,8 @@ const BentoGrid = memo(function BentoGrid() {
           download={true}
           className="flex flex-col mt-auto"
         >
-          <FancyButtonAlt icon={<PiFilePdfFill />} title="Download" />
+           
+          <FancyButtonAlt icon={<PiFilePdfFill />} link="https://drive.google.com/file/d/1ULsdCheBkMAcr7s6C9F6w7uLxhAe0fCt/view?usp=sharing" title="Download" />
         </Link>
       </div>
 
